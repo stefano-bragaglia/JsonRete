@@ -3,7 +3,7 @@
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/src/main/python" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/unittest/python" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/unittest/python" isTestSource="true" />
       <excludeFolder url="file://$MODULE_DIR$/.env" />
       <excludeFolder url="file://$MODULE_DIR$/target" />
     </content>
