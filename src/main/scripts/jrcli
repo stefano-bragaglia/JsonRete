@@ -13,7 +13,7 @@ _logger = logging.getLogger('JsonRete')
 def main():
     while True:
         command = input('>>> ')
-        if command is 'exit':
+        if command == 'exit':
             break
         print(command.upper())
 
