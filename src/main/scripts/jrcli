@@ -1,9 +1,12 @@
 #!/usr/bin/env python
 import logging
 
+import colorama
 import coloredlogs
 import verboselogs
+from colorama import Fore, Style
 
+colorama.init()
 verboselogs.install()
 coloredlogs.install()
 
