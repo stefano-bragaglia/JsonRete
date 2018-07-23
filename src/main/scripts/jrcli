@@ -14,10 +14,10 @@ def main():
     print('JsonRete 0.0.1')
     print()
     while True:
-        command = input('>>> ')
+        command = input('{Fore.GREEN}>>> {Fore.GREY}')
         if command == 'exit':
             break
-        print(command.upper())
+        print('{Fore.WHITE}%s{Style.RESET_ALL}' % command.upper())
 
 
 if __name__ == '__main__':
