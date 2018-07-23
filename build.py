@@ -25,7 +25,7 @@ def set_properties(project):
     project.set_property("coverage_break_build", False)  # default is False
     project.set_property("coverage_break_build_threshold", 50)
     project.set_property("coverage_allow_non_imported_modules", False)  # default is True
-    project.set_property("coverage_exceptions", ["__init__", "dataset", "dataset.utils.data_utils"])
+    project.set_property("coverage_exceptions", ["__init__", "jsonrete"])
 
     # project.set_property("dir_source_unittest_python", "src/test/python")
 
