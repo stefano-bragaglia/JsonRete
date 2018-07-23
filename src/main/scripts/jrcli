@@ -9,5 +9,15 @@ coloredlogs.install()
 
 _logger = logging.getLogger('JsonRete')
 
+
+def main():
+    while True:
+        command = input('>>> ')
+        if command is 'exit':
+            break
+        print(command.upper())
+
+
 if __name__ == '__main__':
-    _logger.notice('Hello, World!')
+    main()
+    _logger.verbose('Done.')
