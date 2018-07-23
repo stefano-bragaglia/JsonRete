@@ -11,6 +11,8 @@ _logger = logging.getLogger('JsonRete')
 
 
 def main():
+    print('JsonRete 0.0.1')
+    print()
     while True:
         command = input('>>> ')
         if command == 'exit':
