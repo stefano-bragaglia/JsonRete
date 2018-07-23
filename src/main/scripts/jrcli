@@ -14,13 +14,13 @@ _logger = logging.getLogger('JsonRete')
 
 
 def main():
-    print('JsonRete 0.0.1')
+    print('%sJsonRete %s0.0.1%s' % (Fore.BLUE, Fore.CYAN, Style.RESET_ALL))
     print()
     while True:
-        command = input('{Fore.GREEN}>>> {Fore.GREY}')
+        command = input('%s>>> %s' % (Fore.GREEN, Fore.BLACK))
         if command == 'exit':
             break
-        print('{Fore.WHITE}%s{Style.RESET_ALL}' % command.upper())
+        print('%s%s%s' % (Fore.WHITE, command.upper(), Style.RESET_ALL))
 
 
 if __name__ == '__main__':
